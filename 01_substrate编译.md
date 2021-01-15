@@ -1,6 +1,4 @@
-# substrate入门_01
 
-<a name="UBv3x"></a>
 # 在M1上编译Substrate
 <a name="UL4PS"></a>
 ## 一、环境配置三部曲
@@ -29,6 +27,7 @@ sudo chown -R $(whoami):staff /opt/homebrew  //将homebrew文件授权给当前�
 <br />也可以用下面这条直接授权所有<br />`cd /opt && sudo chmod -R 777 ./ ` 将文件夹授权给所有用户所有权限<br />
 
 <a name="9cwcB"></a>
+
 #### 2）下载安装脚本（国内源）
 `cd /opt && curl -fsSL `[`https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh`](https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)` > Homebrew.sh`<br />
 
@@ -50,6 +49,7 @@ sudo chown -R $(whoami):staff /opt/homebrew  //将homebrew文件授权给当前�
 `% brew -v`<br />Homebrew 2.7.0<br />Homebrew/homebrew-core (git revision 2d1707; last commit 2020-12-26)<br />Homebrew/homebrew-cask (git revision 8cc958; last commit 2020-12-26)<br />
 
 <a name="s5tQn"></a>
+
 ### 2. 安装依赖库
 参考：[M1编译substrate随笔-知乎](https://zhuanlan.zhihu.com/p/337224781)
 <a name="pvVdb"></a>
